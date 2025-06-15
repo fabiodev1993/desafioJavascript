@@ -26,3 +26,12 @@ function calcularIMC(altura, peso){
 const imc = (calcularIMC(1.68, 78));
 
 console.log(`Seu IMC é ${imc}`);
+
+// 3 - Concatenação de strings e imterpolação
+
+function criarMensagem(nome, idade, cidade){
+  return `Olá, ${nome}, Você tem ${idade} anos e mora em ${cidade}`;
+}
+
+const mensagem = criarMensagem('Fábio', 31, "Duque de Caxias");
+console.log(mensagem);
