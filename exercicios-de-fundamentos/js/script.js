@@ -27,7 +27,7 @@ const imc = (calcularIMC(1.68, 78));
 
 console.log(`Seu IMC é ${imc}`);
 
-// 3 - Concatenação de strings e imterpolação
+// 3 - Concatenação de strings e interpolação
 
 function criarMensagem(nome, idade, cidade){
   return `Olá, ${nome}, Você tem ${idade} anos e mora em ${cidade}`;
