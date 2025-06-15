@@ -16,3 +16,13 @@ function fahrenheitToCelsius (fahrenheit){
 console.log(`${celsius} graus celsius equivalem a ${celsiusToFahrenheit(celsius)} graus fahrenheit`);
 
 console.log(`${fahrenheit} graus fahrenheit equivalem a ${fahrenheitToCelsius(fahrenheit)} graus celsius`);
+
+// 2 - Calculo IMC
+
+function calcularIMC(altura, peso){
+  return (peso / (altura * altura)).toFixed(2);
+};
+
+const imc = (calcularIMC(1.68, 78));
+
+console.log(`Seu IMC é ${imc}`);
